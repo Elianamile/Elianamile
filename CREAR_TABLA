@@ -34,3 +34,4 @@ Historico_id INT,
 FOREIGN KEY (Traslado_id) REFERENCES Traslado(id_traslado ),
  FOREIGN KEY (Historico_id) REFERENCES Historico(id_historico)
 )
+tiene menú contextual
