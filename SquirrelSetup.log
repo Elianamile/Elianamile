@@ -1,0 +1,257 @@
+﻿2023-09-04 08:45:42> Program: Starting Squirrel Updater: --install . --exeName=MSTeamsSetup_c_l_.exe --bootstrapperMode
+2023-09-04 08:45:42> LogHost: Write failed.
+2023-09-04 08:45:42> LogHost: Message: Scenario.Status: success, scenario: f2c457d0-2dde-46ee-b768-6e7312825317, Scenario.Name: desktop_squirrel_stubinstall, Scenario.Step: start, sequence: 0, appversion: , platformId: 27, DeviceInfo.OsName: Windows, DeviceInfo.CpuArchitecture: x64, DeviceInfo.OsVersion: 10.0.22621.0, AppInfo.ProcessArchitecture: x86, AppInfo.ClientType: desktop, dllSearchPathState: unset, clientType: desktop, source: exe, distSrc: default, breadcrumb: , desktopSession: desktop-1c9079f4-e1f2-48bb-bed6-baf7e892c677, installSessionId: 0239aefa0914bb39b0062322b6c7599845a2aa358289eb424a9bf0eb576765ca, delta: 8, scenarioDelta: 8, elapsed: 1693835142564, stepDelta: 0, DeviceInfo.ComputerUuid: 33444335393142483330304239314435, DeviceInfo.OfficeMachineId: b4672738c6a2ad49958fb4fc51c33eeb, InstallerVersion: 3.1.2.0, eventpdclevel: 1, userpdclevel: 0
+2023-09-04 08:45:42> LogHost: Stack trace: System.IO.DirectoryNotFoundException: No se puede encontrar una parte de la ruta de acceso 'C:\Users\Eliana\AppData\Roaming\Microsoft\Teams\SquirrelTelemetry.log'.
+   en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   en System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   en System.IO.StreamWriter..ctor(String path, Boolean append)
+   en Telemetry.AriaWrapper.LogToFile(String message)
+2023-09-04 08:45:42> Program: bootStrapperModeSettings: pdsEndpoint:https://teams.microsoft.com/desktopclient/installer/windows/
+2023-09-04 08:45:42> Program: bootStrapperModeSettings: fallbackNextGenAppPayloadUrlX64:https://aka.ms/maglev-x64
+2023-09-04 08:45:42> Program: bootStrapperModeSettings: fallbackNextGenAppPayloadUrlX86:https://aka.ms/maglev-x86
+2023-09-04 08:45:42> Program: bootStrapperModeSettings: fallbackNextGenAppPayloadUrlARM64:https://aka.ms/maglev-arm64
+2023-09-04 08:45:42> Program: bootStrapperModeSettings: getInstallerEndpointUrl:https://teams.live.com/downloads/getinstaller
+2023-09-04 08:45:42> RegistryService: TryGetRegKey: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\CurrentMajorVersionNumber exists. Data - 10
+2023-09-04 08:45:42> RegistryService: TryGetRegKey: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\CurrentMinorVersionNumber exists. Data - 0
+2023-09-04 08:45:42> RegistryService: TryGetRegKey: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\CurrentBuildNumber exists. Data - 22621
+2023-09-04 08:45:42> LogHost: Write failed.
+2023-09-04 08:45:42> LogHost: Message: DownloadUrlRetry: 0, endpointUrl: https://teams.live.com/downloads/getinstaller?intent=Life&arch=x64&platVersion=10.0.22621, Scenario.Status: success, scenario: f2c457d0-2dde-46ee-b768-6e7312825317, Scenario.Name: desktop_squirrel_stubinstall, Scenario.Step: download_url_start, sequence: 1, appversion: , platformId: 27, DeviceInfo.OsName: Windows, DeviceInfo.CpuArchitecture: x64, DeviceInfo.OsVersion: 10.0.22621.0, AppInfo.ProcessArchitecture: x86, AppInfo.ClientType: desktop, dllSearchPathState: unset, clientType: desktop, source: exe, distSrc: default, breadcrumb: , desktopSession: desktop-1c9079f4-e1f2-48bb-bed6-baf7e892c677, installSessionId: 0239aefa0914bb39b0062322b6c7599845a2aa358289eb424a9bf0eb576765ca, delta: 400, scenarioDelta: 400, elapsed: 1693835142956, stepDelta: 392, DeviceInfo.ComputerUuid: 33444335393142483330304239314435, DeviceInfo.OfficeMachineId: b4672738c6a2ad49958fb4fc51c33eeb, InstallerVersion: 3.1.2.0, eventpdclevel: 1, userpdclevel: 0
+2023-09-04 08:45:42> LogHost: Stack trace: System.IO.DirectoryNotFoundException: No se puede encontrar una parte de la ruta de acceso 'C:\Users\Eliana\AppData\Roaming\Microsoft\Teams\SquirrelTelemetry.log'.
+   en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   en System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   en System.IO.StreamWriter..ctor(String path, Boolean append)
+   en Telemetry.AriaWrapper.LogToFile(String message)
+2023-09-04 08:45:43> FileDownloader: Downloading url: https://teams.live.com/downloads/getinstaller?intent=Life&arch=x64&platVersion=10.0.22621
+2023-09-04 08:45:46> LogHost: Write failed.
+2023-09-04 08:45:46> LogHost: Message: DownloadUrlRetry: 0, endpointUrl: https://teams.live.com/downloads/getinstaller?intent=Life&arch=x64&platVersion=10.0.22621, sizeInBytes: 143, Scenario.Status: success, scenario: f2c457d0-2dde-46ee-b768-6e7312825317, Scenario.Name: desktop_squirrel_stubinstall, Scenario.Step: download_url_end, sequence: 2, appversion: , platformId: 27, DeviceInfo.OsName: Windows, DeviceInfo.CpuArchitecture: x64, DeviceInfo.OsVersion: 10.0.22621.0, AppInfo.ProcessArchitecture: x86, AppInfo.ClientType: desktop, dllSearchPathState: unset, clientType: desktop, source: exe, distSrc: default, breadcrumb: , desktopSession: desktop-1c9079f4-e1f2-48bb-bed6-baf7e892c677, installSessionId: 0239aefa0914bb39b0062322b6c7599845a2aa358289eb424a9bf0eb576765ca, delta: 3870, scenarioDelta: 3870, elapsed: 1693835146426, stepDelta: 3470, DeviceInfo.ComputerUuid: 33444335393142483330304239314435, DeviceInfo.OfficeMachineId: b4672738c6a2ad49958fb4fc51c33eeb, InstallerVersion: 3.1.2.0, eventpdclevel: 1, userpdclevel: 0
+2023-09-04 08:45:46> LogHost: Stack trace: System.IO.DirectoryNotFoundException: No se puede encontrar una parte de la ruta de acceso 'C:\Users\Eliana\AppData\Roaming\Microsoft\Teams\SquirrelTelemetry.log'.
+   en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   en System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   en System.IO.StreamWriter..ctor(String path, Boolean append)
+   en Telemetry.AriaWrapper.LogToFile(String message)
+2023-09-04 08:45:46> BootstrapperInstallManager: getinstaller endpoint returned installer path https://statics.teams.cdn.office.net/production-windows-x64/23216.905.2334.6698/MicrosoftTeams-x64.msix
+2023-09-04 08:45:46> BootstrapperInstallManager: No decoded deep link is returned from get installer endpoint. Continue install without deep link
+2023-09-04 08:45:46> Program: Installing the Teams 2 client
+2023-09-04 08:45:54> Program: Detected existing Teams 2 client installation.
+2023-09-04 08:45:54> LogHost: Write failed.
+2023-09-04 08:45:54> LogHost: Message: intent: Life, arch: x64, platVersion: 10.0.22621, DownloadUrlRetry: 0, IsNextGenLink: True, InstallerUrlFromCloud: https://statics.teams.cdn.office.net/production-windows-x64/23216.905.2334.6698/MicrosoftTeams-x64.msix, Scenario.Status: success, scenario: f2c457d0-2dde-46ee-b768-6e7312825317, Scenario.Name: desktop_squirrel_stubinstall, Scenario.Step: stop, sequence: 3, appversion: , platformId: 27, DeviceInfo.OsName: Windows, DeviceInfo.CpuArchitecture: x64, DeviceInfo.OsVersion: 10.0.22621.0, AppInfo.ProcessArchitecture: x86, AppInfo.ClientType: desktop, dllSearchPathState: unset, clientType: desktop, source: exe, distSrc: default, breadcrumb: dud;t2ib;t2is;, desktopSession: desktop-1c9079f4-e1f2-48bb-bed6-baf7e892c677, installSessionId: 0239aefa0914bb39b0062322b6c7599845a2aa358289eb424a9bf0eb576765ca, delta: 12206, scenarioDelta: 12206, elapsed: 1693835154762, stepDelta: 8336, DeviceInfo.ComputerUuid: 33444335393142483330304239314435, DeviceInfo.OfficeMachineId: b4672738c6a2ad49958fb4fc51c33eeb, InstallerVersion: 3.1.2.0, eventpdclevel: 1, userpdclevel: 0
+2023-09-04 08:45:54> LogHost: Stack trace: System.IO.DirectoryNotFoundException: No se puede encontrar una parte de la ruta de acceso 'C:\Users\Eliana\AppData\Roaming\Microsoft\Teams\SquirrelTelemetry.log'.
+   en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   en System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   en System.IO.StreamWriter..ctor(String path, Boolean append)
+   en Telemetry.AriaWrapper.LogToFile(String message)
+2023-09-04 09:05:00> Program: Starting Squirrel Updater: --install . --exeName=MSTeamsSetup_c_l_.exe --bootstrapperMode
+2023-09-04 09:05:01> LogHost: Write failed.
+2023-09-04 09:05:01> LogHost: Message: Scenario.Status: success, scenario: d30f8e90-e8c0-48df-982c-4b85e9619f6f, Scenario.Name: desktop_squirrel_stubinstall, Scenario.Step: start, sequence: 0, appversion: , platformId: 27, DeviceInfo.OsName: Windows, DeviceInfo.CpuArchitecture: x64, DeviceInfo.OsVersion: 10.0.22621.0, AppInfo.ProcessArchitecture: x86, AppInfo.ClientType: desktop, dllSearchPathState: unset, clientType: desktop, source: exe, distSrc: default, breadcrumb: , desktopSession: desktop-b4b1ca4e-9f4c-4b93-bd4a-89536c204fcb, installSessionId: 1ca03cd0e50bfa221a1868d9025c1b613a5c016598cd12524d044c240cd286b8, delta: 9, scenarioDelta: 9, elapsed: 1693836300904, stepDelta: 0, DeviceInfo.ComputerUuid: 33444335393142483330304239314435, DeviceInfo.OfficeMachineId: b4672738c6a2ad49958fb4fc51c33eeb, InstallerVersion: 3.1.2.0, eventpdclevel: 1, userpdclevel: 0
+2023-09-04 09:05:01> LogHost: Stack trace: System.IO.DirectoryNotFoundException: No se puede encontrar una parte de la ruta de acceso 'C:\Users\Eliana\AppData\Roaming\Microsoft\Teams\SquirrelTelemetry.log'.
+   en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   en System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   en System.IO.StreamWriter..ctor(String path, Boolean append)
+   en Telemetry.AriaWrapper.LogToFile(String message)
+2023-09-04 09:05:01> Program: bootStrapperModeSettings: pdsEndpoint:https://teams.microsoft.com/desktopclient/installer/windows/
+2023-09-04 09:05:01> Program: bootStrapperModeSettings: fallbackNextGenAppPayloadUrlX64:https://aka.ms/maglev-x64
+2023-09-04 09:05:01> Program: bootStrapperModeSettings: fallbackNextGenAppPayloadUrlX86:https://aka.ms/maglev-x86
+2023-09-04 09:05:01> Program: bootStrapperModeSettings: fallbackNextGenAppPayloadUrlARM64:https://aka.ms/maglev-arm64
+2023-09-04 09:05:01> Program: bootStrapperModeSettings: getInstallerEndpointUrl:https://teams.live.com/downloads/getinstaller
+2023-09-04 09:05:01> RegistryService: TryGetRegKey: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\CurrentMajorVersionNumber exists. Data - 10
+2023-09-04 09:05:01> RegistryService: TryGetRegKey: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\CurrentMinorVersionNumber exists. Data - 0
+2023-09-04 09:05:01> RegistryService: TryGetRegKey: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\CurrentBuildNumber exists. Data - 22621
+2023-09-04 09:05:01> LogHost: Write failed.
+2023-09-04 09:05:01> LogHost: Message: DownloadUrlRetry: 0, endpointUrl: https://teams.live.com/downloads/getinstaller?intent=Life&arch=x64&platVersion=10.0.22621, Scenario.Status: success, scenario: d30f8e90-e8c0-48df-982c-4b85e9619f6f, Scenario.Name: desktop_squirrel_stubinstall, Scenario.Step: download_url_start, sequence: 1, appversion: , platformId: 27, DeviceInfo.OsName: Windows, DeviceInfo.CpuArchitecture: x64, DeviceInfo.OsVersion: 10.0.22621.0, AppInfo.ProcessArchitecture: x86, AppInfo.ClientType: desktop, dllSearchPathState: unset, clientType: desktop, source: exe, distSrc: default, breadcrumb: , desktopSession: desktop-b4b1ca4e-9f4c-4b93-bd4a-89536c204fcb, installSessionId: 1ca03cd0e50bfa221a1868d9025c1b613a5c016598cd12524d044c240cd286b8, delta: 213, scenarioDelta: 213, elapsed: 1693836301108, stepDelta: 204, DeviceInfo.ComputerUuid: 33444335393142483330304239314435, DeviceInfo.OfficeMachineId: b4672738c6a2ad49958fb4fc51c33eeb, InstallerVersion: 3.1.2.0, eventpdclevel: 1, userpdclevel: 0
+2023-09-04 09:05:01> LogHost: Stack trace: System.IO.DirectoryNotFoundException: No se puede encontrar una parte de la ruta de acceso 'C:\Users\Eliana\AppData\Roaming\Microsoft\Teams\SquirrelTelemetry.log'.
+   en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   en System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   en System.IO.StreamWriter..ctor(String path, Boolean append)
+   en Telemetry.AriaWrapper.LogToFile(String message)
+2023-09-04 09:05:01> FileDownloader: Downloading url: https://teams.live.com/downloads/getinstaller?intent=Life&arch=x64&platVersion=10.0.22621
+2023-09-04 09:05:02> LogHost: Write failed.
+2023-09-04 09:05:02> LogHost: Message: DownloadUrlRetry: 0, endpointUrl: https://teams.live.com/downloads/getinstaller?intent=Life&arch=x64&platVersion=10.0.22621, sizeInBytes: 143, Scenario.Status: success, scenario: d30f8e90-e8c0-48df-982c-4b85e9619f6f, Scenario.Name: desktop_squirrel_stubinstall, Scenario.Step: download_url_end, sequence: 2, appversion: , platformId: 27, DeviceInfo.OsName: Windows, DeviceInfo.CpuArchitecture: x64, DeviceInfo.OsVersion: 10.0.22621.0, AppInfo.ProcessArchitecture: x86, AppInfo.ClientType: desktop, dllSearchPathState: unset, clientType: desktop, source: exe, distSrc: default, breadcrumb: , desktopSession: desktop-b4b1ca4e-9f4c-4b93-bd4a-89536c204fcb, installSessionId: 1ca03cd0e50bfa221a1868d9025c1b613a5c016598cd12524d044c240cd286b8, delta: 1745, scenarioDelta: 1745, elapsed: 1693836302640, stepDelta: 1532, DeviceInfo.ComputerUuid: 33444335393142483330304239314435, DeviceInfo.OfficeMachineId: b4672738c6a2ad49958fb4fc51c33eeb, InstallerVersion: 3.1.2.0, eventpdclevel: 1, userpdclevel: 0
+2023-09-04 09:05:02> LogHost: Stack trace: System.IO.DirectoryNotFoundException: No se puede encontrar una parte de la ruta de acceso 'C:\Users\Eliana\AppData\Roaming\Microsoft\Teams\SquirrelTelemetry.log'.
+   en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   en System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   en System.IO.StreamWriter..ctor(String path, Boolean append)
+   en Telemetry.AriaWrapper.LogToFile(String message)
+2023-09-04 09:05:02> BootstrapperInstallManager: getinstaller endpoint returned installer path https://statics.teams.cdn.office.net/production-windows-x64/23216.905.2334.6698/MicrosoftTeams-x64.msix
+2023-09-04 09:05:02> BootstrapperInstallManager: No decoded deep link is returned from get installer endpoint. Continue install without deep link
+2023-09-04 09:05:02> Program: Installing the Teams 2 client
+2023-09-04 09:05:05> Program: Detected existing Teams 2 client installation.
+2023-09-04 09:05:05> LogHost: Write failed.
+2023-09-04 09:05:05> LogHost: Message: intent: Life, arch: x64, platVersion: 10.0.22621, DownloadUrlRetry: 0, IsNextGenLink: True, InstallerUrlFromCloud: https://statics.teams.cdn.office.net/production-windows-x64/23216.905.2334.6698/MicrosoftTeams-x64.msix, Scenario.Status: success, scenario: d30f8e90-e8c0-48df-982c-4b85e9619f6f, Scenario.Name: desktop_squirrel_stubinstall, Scenario.Step: stop, sequence: 3, appversion: , platformId: 27, DeviceInfo.OsName: Windows, DeviceInfo.CpuArchitecture: x64, DeviceInfo.OsVersion: 10.0.22621.0, AppInfo.ProcessArchitecture: x86, AppInfo.ClientType: desktop, dllSearchPathState: unset, clientType: desktop, source: exe, distSrc: default, breadcrumb: dud;t2ib;t2is;, desktopSession: desktop-b4b1ca4e-9f4c-4b93-bd4a-89536c204fcb, installSessionId: 1ca03cd0e50bfa221a1868d9025c1b613a5c016598cd12524d044c240cd286b8, delta: 4530, scenarioDelta: 4530, elapsed: 1693836305425, stepDelta: 2785, DeviceInfo.ComputerUuid: 33444335393142483330304239314435, DeviceInfo.OfficeMachineId: b4672738c6a2ad49958fb4fc51c33eeb, InstallerVersion: 3.1.2.0, eventpdclevel: 1, userpdclevel: 0
+2023-09-04 09:05:05> LogHost: Stack trace: System.IO.DirectoryNotFoundException: No se puede encontrar una parte de la ruta de acceso 'C:\Users\Eliana\AppData\Roaming\Microsoft\Teams\SquirrelTelemetry.log'.
+   en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   en System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   en System.IO.StreamWriter..ctor(String path, Boolean append)
+   en Telemetry.AriaWrapper.LogToFile(String message)
+2023-09-04 09:05:52> Program: Starting Squirrel Updater: --install . --exeName=TeamsSetup_c_w_.exe --bootstrapperMode
+2023-09-04 09:05:52> RegistryService: TryDeleteRegKey: HKEY_CURRENT_USER\Software\Microsoft\Office\Teams not found
+2023-09-04 09:05:52> RegistryService: RegKeyExists: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\Teams\ does not exist
+2023-09-04 09:05:52> LogHost: Write failed.
+2023-09-04 09:05:52> LogHost: Message: Scenario.Status: success, scenario: f4add968-5042-43f9-b3ff-e79ef5a7dffd, Scenario.Name: desktop_squirrel_stubinstall, Scenario.Step: start, sequence: 0, appversion: , platformId: 27, DeviceInfo.OsName: Windows, DeviceInfo.CpuArchitecture: x64, DeviceInfo.OsVersion: 10.0.22621.0, AppInfo.ProcessArchitecture: x86, AppInfo.ClientType: desktop, dllSearchPathState: unset, clientType: desktop, source: exe, distSrc: default, breadcrumb: , SignedPackages: enabled, desktopSession: desktop-72525cd1-a5a5-42c1-9ba6-c00de86919f2, installSessionId: fd85685439bb2e2ff878efc42534ca20e1af740b3f4d65236d36a0a0d78c4f95, delta: 0, scenarioDelta: 0, elapsed: 1693836352519, stepDelta: 0, DeviceInfo.ComputerUuid: 33444335393142483330304239314435, DeviceInfo.OfficeMachineId: b4672738c6a2ad49958fb4fc51c33eeb, InstallerVersion: 3.3.3.0, eventpdclevel: 1, userpdclevel: 0
+2023-09-04 09:05:52> LogHost: Stack trace: System.IO.DirectoryNotFoundException: No se puede encontrar una parte de la ruta de acceso 'C:\Users\Eliana\AppData\Roaming\Microsoft\Teams\SquirrelTelemetry.log'.
+   en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   en System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   en System.IO.StreamWriter..ctor(String path, Boolean append)
+   en Telemetry.AriaWrapper.LogToFile(String message)
+2023-09-04 09:05:52> Program: bootStrapperModeSettings: pdsEndpoint:https://teams.microsoft.com/desktopclient/installer/windows/
+2023-09-04 09:05:52> RegistryService: TryGetRegKey: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\CurrentBuildNumber exists. Data - 22621
+2023-09-04 09:05:52> LogHost: Write failed.
+2023-09-04 09:05:52> LogHost: Message: DownloadUrlRetry: 0, endpointUrl: https://teams.microsoft.com/desktopclient/installer/windows/x64, Scenario.Status: success, scenario: f4add968-5042-43f9-b3ff-e79ef5a7dffd, Scenario.Name: desktop_squirrel_stubinstall, Scenario.Step: download_url_start, sequence: 1, appversion: , platformId: 27, DeviceInfo.OsName: Windows, DeviceInfo.CpuArchitecture: x64, DeviceInfo.OsVersion: 10.0.22621.0, AppInfo.ProcessArchitecture: x86, AppInfo.ClientType: desktop, dllSearchPathState: unset, clientType: desktop, source: exe, distSrc: default, breadcrumb: , SignedPackages: enabled, desktopSession: desktop-72525cd1-a5a5-42c1-9ba6-c00de86919f2, installSessionId: fd85685439bb2e2ff878efc42534ca20e1af740b3f4d65236d36a0a0d78c4f95, delta: 158, scenarioDelta: 158, elapsed: 1693836352677, stepDelta: 158, DeviceInfo.ComputerUuid: 33444335393142483330304239314435, DeviceInfo.OfficeMachineId: b4672738c6a2ad49958fb4fc51c33eeb, InstallerVersion: 3.3.3.0, eventpdclevel: 1, userpdclevel: 0
+2023-09-04 09:05:52> LogHost: Stack trace: System.IO.DirectoryNotFoundException: No se puede encontrar una parte de la ruta de acceso 'C:\Users\Eliana\AppData\Roaming\Microsoft\Teams\SquirrelTelemetry.log'.
+   en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   en System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   en System.IO.StreamWriter..ctor(String path, Boolean append)
+   en Telemetry.AriaWrapper.LogToFile(String message)
+2023-09-04 09:05:52> FileDownloader: Downloading url: https://teams.microsoft.com/desktopclient/installer/windows/x64
+2023-09-04 09:05:53> LogHost: Write failed.
+2023-09-04 09:05:53> LogHost: Message: DownloadUrlRetry: 0, endpointUrl: https://teams.microsoft.com/desktopclient/installer/windows/x64, sizeInBytes: 94, Scenario.Status: success, scenario: f4add968-5042-43f9-b3ff-e79ef5a7dffd, Scenario.Name: desktop_squirrel_stubinstall, Scenario.Step: download_url_end, sequence: 2, appversion: , platformId: 27, DeviceInfo.OsName: Windows, DeviceInfo.CpuArchitecture: x64, DeviceInfo.OsVersion: 10.0.22621.0, AppInfo.ProcessArchitecture: x86, AppInfo.ClientType: desktop, dllSearchPathState: unset, clientType: desktop, source: exe, distSrc: default, breadcrumb: , SignedPackages: enabled, desktopSession: desktop-72525cd1-a5a5-42c1-9ba6-c00de86919f2, installSessionId: fd85685439bb2e2ff878efc42534ca20e1af740b3f4d65236d36a0a0d78c4f95, delta: 1477, scenarioDelta: 1477, elapsed: 1693836353996, stepDelta: 1319, DeviceInfo.ComputerUuid: 33444335393142483330304239314435, DeviceInfo.OfficeMachineId: b4672738c6a2ad49958fb4fc51c33eeb, InstallerVersion: 3.3.3.0, eventpdclevel: 1, userpdclevel: 0
+2023-09-04 09:05:53> LogHost: Stack trace: System.IO.DirectoryNotFoundException: No se puede encontrar una parte de la ruta de acceso 'C:\Users\Eliana\AppData\Roaming\Microsoft\Teams\SquirrelTelemetry.log'.
+   en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   en System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   en System.IO.StreamWriter..ctor(String path, Boolean append)
+   en Telemetry.AriaWrapper.LogToFile(String message)
+2023-09-04 09:05:54> Program: setup.json does not exist
+2023-09-04 09:05:54> Program: File does not contain contextual info: TeamsSetup_c_w_.exe
+2023-09-04 09:05:54> UpdateManager: using rootAppDirectory: C:\Users\Eliana\AppData\Local\Microsoft\Teams
+2023-09-04 09:05:54> Program: About to install to: C:\Users\Eliana\AppData\Local\Microsoft\Teams
+2023-09-04 09:05:54> Program: Setup.json exist, copying over
+2023-09-04 09:05:54> RegistryService: RegKeyExists: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run does not have TeamsMachineInstaller
+2023-09-04 09:05:54> Program: CheckMsiAndTryAddInstallSource: Not MSI, no need to add HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\InstallSource
+2023-09-04 09:05:54> CheckForUpdateImpl: Couldn't write out staging user ID, this user probably shouldn't get beta anything: System.IO.DirectoryNotFoundException: No se puede encontrar una parte de la ruta de acceso 'C:\Users\Eliana\AppData\Local\Microsoft\Teams\packages\.betaId'.
+   en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   en System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   en System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+   en System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+   en Squirrel.UpdateManager.CheckForUpdateImpl.getOrCreateStagedUserId()
+2023-09-04 09:05:54> CheckForUpdateImpl: Failed to load local releases, starting from scratch: System.IO.DirectoryNotFoundException: No se puede encontrar una parte de la ruta de acceso 'C:\Users\Eliana\AppData\Local\Microsoft\Teams\packages\RELEASES'.
+   en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   en Squirrel.Utility.LoadLocalReleases(String localReleaseFile)
+   en Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__8.MoveNext()
+2023-09-04 09:05:54> RegistryService: RegKeyExists: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\Teams\ does not exist
+2023-09-04 09:05:54> CheckForUpdateImpl: Downloading RELEASES.exe file from https://statics.teams.cdn.office.net/production-windows-x64/1.6.00.22378
+2023-09-04 09:05:54> FileDownloader: Downloading file: https://statics.teams.cdn.office.net/production-windows-x64/1.6.00.22378/RELEASES.exe
+2023-09-04 09:05:54> RegistryService: RegKeyExists: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\Teams\ does not exist
+2023-09-04 09:05:54> RegistryService: RegKeyExists: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\Teams\ does not exist
+2023-09-04 09:05:54> CheckForUpdateImpl: Manifest Raw Length: 130 Length: 127 Content: F3FC8736ADC0E28FB5618ABC01326DB7DEB129F8375A0CD0230A0A2A5FDB7AAB
+2023-09-04 09:05:54> CheckForUpdateImpl: First run or local directory is corrupt, starting from scratch
+2023-09-04 09:05:54> FileDownloader: Downloading file: https://statics.teams.cdn.office.net/production-windows-x64/1.6.00.22378/Teams-1.6.00.22378-full.nupkg
+2023-09-04 09:14:24> RegistryService: RegKeyExists: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\Teams\ does not exist
+2023-09-04 09:14:26> RegistryService: RegKeyExists: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\Teams\ does not exist
+2023-09-04 09:14:26> ApplyReleasesImpl: No delta packages found. Applying current release package.
+2023-09-04 09:14:26> ApplyReleasesImpl: getting squirrel aware apps failed with exception No se puede encontrar una parte de la ruta de acceso 'C:\Users\Eliana\AppData\Local\Microsoft\Teams\current'.
+2023-09-04 09:14:26> ApplyReleasesImpl: Writing files to app directory: C:\Users\Eliana\AppData\Local\Microsoft\Teams\current
+2023-09-04 09:14:30> RegistryService: RegKeyExists: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\Teams\ does not exist
+2023-09-04 09:14:30> ApplyReleasesImpl: Squirrel Enabled Apps: [C:\Users\Eliana\AppData\Local\Microsoft\Teams\current\Teams.exe]
+2023-09-04 09:14:35> ApplyReleasesImpl: About to RemoveOldShorcuts for Teams.exe, rootAppDir C:\Users\Eliana\AppData\Local\Microsoft\Teams
+2023-09-04 09:14:35> RegistryService: RegKeyExists: HKEY_CURRENT_USER\Software\Policies\Microsoft\Cloud\Office\16.0\Teams does not exist
+2023-09-04 09:14:35> ApplyReleasesImpl: Registry value Software\Policies\Microsoft\Cloud\Office\16.0\Teams\PreventFirstLaunchAfterInstall does not exist
+2023-09-04 09:14:35> RegistryService: RegKeyExists: HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\16.0\Teams does not exist
+2023-09-04 09:14:35> ApplyReleasesImpl: Registry value Software\Policies\Microsoft\Office\16.0\Teams\PreventFirstLaunchAfterInstall does not exist
+2023-09-04 09:14:35> RegistryService: RegKeyExists: HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Teams does not exist
+2023-09-04 09:14:35> ApplyReleasesImpl: Registry value Software\Microsoft\Office\16.0\Teams\PreventFirstLaunchAfterInstall does not exist
+2023-09-04 09:14:35> ApplyReleasesImpl: Registry flags are not set: proceed with default value NotConfigured
+2023-09-04 09:14:35> ApplyReleasesImpl: Starting fixPinnedExecutables
+2023-09-04 09:14:35> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+2023-09-04 09:14:35> ApplyReleasesImpl: Examining Pin: Google Chrome.lnk
+2023-09-04 09:14:35> ApplyReleasesImpl: Examining Pin: McAfee LiveSafe.lnk
+2023-09-04 09:14:35> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+2023-09-04 09:14:35> ApplyReleasesImpl: Examining Pin: Microsoft Teams.lnk
+2023-09-04 09:14:35> ApplyReleasesImpl: Examining Pin: PowerPoint.lnk
+2023-09-04 09:14:35> ApplyReleasesImpl: Examining Pin: Remote Desktop Connection.lnk
+2023-09-04 09:14:35> ApplyReleasesImpl: Fixing up tray icons
+2023-09-04 09:14:35> MeetingAddinInstaller: System.ArgumentException: No se puede eliminar el árbol de subclave porque no existe la subclave.
+   en System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   en Microsoft.Win32.RegistryKey.DeleteSubKeyTree(String subkey, Boolean throwOnMissingSubKey)
+   en Microsoft.Win32.RegistryKey.DeleteSubKeyTree(String subkey)
+   en Squirrel.MeetingAddinInstaller.<InstallMeetingAddinAsync>d__15.MoveNext()
+2023-09-04 09:14:35> MeetingAddinInstaller: StagedAppDirectory does not exist. Using Current
+2023-09-04 09:14:35> MeetingAddinInstaller: There is no version.txt. Falling back to getting version from folder name
+2023-09-04 09:14:35> MeetingAddinInstaller: Version: 1.0.23199.2; addinPackageDirectory: 1.0.23199.2
+2023-09-04 09:14:35> MeetingAddinInstaller: .dead exists: False
+2023-09-04 09:14:35> MeetingAddinInstaller: path to .dead: C:\Users\Eliana\AppData\Local\Microsoft\TeamsMeetingAddin\1.0.23199.2\.dead
+2023-09-04 09:14:35> MeetingAddinInstaller: before cleanup unused versions
+2023-09-04 09:14:35> MeetingAddinInstaller: Addin directory exists. Copy was successful
+2023-09-04 09:14:35> MeetingAddinInstaller: Version 1.0.23199.2 of the meeting add-in is now installed
+2023-09-04 09:14:35> PresenceAddinInstaller: Installing Teams Presence addin for Outlook...
+2023-09-04 09:14:35> PresenceAddinInstaller: Copying C:\Users\Eliana\AppData\Local\Microsoft\Teams\current\resources\assets\tlb\Uc.tlb to C:\Users\Eliana\AppData\Local\Microsoft\TeamsPresenceAddin
+2023-09-04 09:14:35> PresenceAddinInstaller: Copying C:\Users\Eliana\AppData\Local\Microsoft\Teams\current\resources\assets\tlb\Uc.win32.tlb to C:\Users\Eliana\AppData\Local\Microsoft\TeamsPresenceAddin
+2023-09-04 09:14:35> PresenceAddinInstaller: check if UC TypeLib points to current\resources\assets\tlb\Uc.tlb
+2023-09-04 09:14:35> PresenceAddinInstaller: Registering UC Typelib WIN32 under HKCU...
+2023-09-04 09:14:36> PresenceAddinInstaller: UC Typelib WIN32 successfully registered to C:\Users\Eliana\AppData\Local\Microsoft\TeamsPresenceAddin\Uc.win32.tlb under HKCU!
+2023-09-04 09:14:36> PresenceAddinInstaller: Registering UC Typelib WIN64 under HKCU...
+2023-09-04 09:14:36> PresenceAddinInstaller: UC Typelib WIN64 successfully registered to C:\Users\Eliana\AppData\Local\Microsoft\TeamsPresenceAddin\Uc.tlb under HKCU!
+2023-09-04 09:14:36> PresenceAddinInstaller: IM Provider registry key has been created!
+2023-09-04 09:14:36> ApplyReleasesImpl: cleanDeadVersions: for original version of  and current version of 1.6.00.22378
+2023-09-04 09:14:36> ApplyReleasesImpl: cleanDeadVersions: exclude current folder stage
+2023-09-04 09:14:38> RegistryService: TryDeleteRegKey: HKEY_CURRENT_USER\Software\Microsoft\Office\Teams not found
+2024-03-06 21:26:46> Program: Starting Squirrel Updater: --install . --exeName=MSTeamsSetup_c_l_ (1).exe --bootstrapperMode
+2024-03-06 21:26:46> Program: bootStrapperModeSettings: pdsEndpoint:https://teams.microsoft.com/desktopclient/installer/windows/
+2024-03-06 21:26:46> Program: bootStrapperModeSettings: fallbackNextGenAppPayloadUrlX64:https://aka.ms/maglev-x64
+2024-03-06 21:26:46> Program: bootStrapperModeSettings: fallbackNextGenAppPayloadUrlX86:https://aka.ms/maglev-x86
+2024-03-06 21:26:46> Program: bootStrapperModeSettings: fallbackNextGenAppPayloadUrlARM64:https://aka.ms/maglev-arm64
+2024-03-06 21:26:46> Program: bootStrapperModeSettings: getInstallerEndpointUrl:https://teams.live.com/downloads/getinstaller
+2024-03-06 21:26:46> RegistryService: TryGetRegKey: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\CurrentMajorVersionNumber exists. Data - 10
+2024-03-06 21:26:46> RegistryService: TryGetRegKey: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\CurrentMinorVersionNumber exists. Data - 0
+2024-03-06 21:26:46> RegistryService: TryGetRegKey: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\CurrentBuildNumber exists. Data - 22621
+2024-03-06 21:26:47> FileDownloader: Downloading url: https://teams.live.com/downloads/getinstaller?intent=Life&arch=x64&platVersion=10.0.22621
+2024-03-06 21:26:47> BootstrapperInstallManager: getinstaller endpoint returned installer path https://statics.teams.cdn.live.net/production-windows-x64/24033.1005.2701.7380/MicrosoftTeams-x64.msix
+2024-03-06 21:26:47> BootstrapperInstallManager: No decoded deep link is returned from get installer endpoint. Continue install without deep link
+2024-03-06 21:26:47> Program: Installing the Teams 2 client
+2024-03-06 21:26:51> Program: Detected existing Teams 2 client installation.
+2024-10-23 18:53:01> Program: Starting Squirrel Updater: --install . --exeName=MSTeamsSetup (1).exe --bootstrapperMode
+2024-10-23 18:53:01> RegistryService: TryDeleteRegKey: HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\AcquireSource not found
+2024-10-23 18:53:01> RegistryService: RegKeyExists: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\Teams\ does not exist
+2024-10-23 18:53:01> Program: bootStrapperModeSettings: pdsEndpoint:https://teams.microsoft.com/desktopclient/installer/windows/
+2024-10-23 18:53:01> Program: bootStrapperModeSettings: fallbackNextGenAppPayloadUrlX64:https://aka.ms/maglev-x64
+2024-10-23 18:53:01> Program: bootStrapperModeSettings: fallbackNextGenAppPayloadUrlX86:https://aka.ms/maglev-x86
+2024-10-23 18:53:01> Program: bootStrapperModeSettings: fallbackNextGenAppPayloadUrlARM64:https://aka.ms/maglev-arm64
+2024-10-23 18:53:01> Program: bootStrapperModeSettings: getInstallerEndpointUrl:https://teams.live.com/downloads/getinstaller
+2024-10-23 18:53:01> Program: bootStrapperModeSettings: fallbackNextGenWorkAppPayloadUrlX64:https://go.microsoft.com/fwlink/?linkid=2196106
+2024-10-23 18:53:01> Program: bootStrapperModeSettings: fallbackNextGenWorkAppPayloadUrlX86:https://go.microsoft.com/fwlink/?linkid=2196060
+2024-10-23 18:53:01> Program: bootStrapperModeSettings: fallbackNextGenWorkAppPayloadUrlARM64:https://go.microsoft.com/fwlink/?linkid=2196207
+2024-10-23 18:53:01> RegistryService: TryGetRegKey: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\CurrentBuildNumber exists. Data - 22631
+2024-10-23 18:53:01> RegistryService: TryGetRegKey: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\CurrentMajorVersionNumber exists. Data - 10
+2024-10-23 18:53:01> RegistryService: TryGetRegKey: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\CurrentMinorVersionNumber exists. Data - 0
+2024-10-23 18:53:01> RegistryService: TryGetRegKey: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\CurrentBuildNumber exists. Data - 22631
+2024-10-23 18:53:01> FileDownloader: Downloading url: https://teams.live.com/downloads/getinstaller?arch=x64&platVersion=10.0.22631
+2024-10-23 18:53:04> BootstrapperInstallManager: getinstaller endpoint returned installer path https://statics.teams.cdn.office.net/production-windows-x64/1.7.00.19353/
+2024-10-23 18:53:04> BootstrapperInstallManager: No decoded deep link is returned from get installer endpoint. Continue install without deep link
+2024-10-23 18:53:04> BootstrapperInstallManager: Use next gen work app
+2024-10-23 18:53:04> Program: Installing the Teams 2 client
